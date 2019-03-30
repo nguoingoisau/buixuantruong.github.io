@@ -1,0 +1,51 @@
+html,body{margin:0;padding: 0;}
+*{box-sizing: border-box;}
+img{max-width: 100%;
+}
+
+body{
+	font-family: "Open Sans", arial, sans-serif;
+	font-weight: 800;
+	background-color: #ffffff;
+}
+@keyframes title {
+	0%  {background-color: #EF7126; color: #F9E559;}
+    25%  {background-color: #6F3662; color: #FFFFFF;}
+    50%  {background-color: #9F6164; color: #F8DEBD;}
+    75%  {background-color: #44B3C2; color: #FFFFFF;}
+    100% {background-color: #218C8D; color: #F9E559;}
+
+}
+@keyframes dap {
+10%{transform:scale(1.3);
+}
+30%{transform:scale(1.1);
+}
+50%{transform:scale(1.5);
+}
+70%{transform:scale(1.3);
+}
+100%{transform:scale(1.5);
+}
+
+
+h1{
+	margin:25px 0;
+	font-size: 3em;
+	line-height:  1.5em;
+	font-family: georgia;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #8E0B00;
+	text-align: center;
+	animation: title 10s ease infinite;
+	}
+	
+
+	.tim2{animation: dap 10s ease infinite;
+		margin: auto;
+		max-width:500px;
+		overflow: hidden;
+	}
+
+

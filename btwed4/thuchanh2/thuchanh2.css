@@ -1,0 +1,49 @@
+html,body{margin:0;padding: 0;}
+*{box-sizing: border-box;}
+img{max-width: 100%;
+}
+
+body{
+	font-family: "Open Sans", arial, sans-serif;
+	font-weight: 500;
+	background-color: #ffffff;
+}
+h1{
+	margin:25px 0;
+	font-size: 3em;
+	line-height:  1.5em;
+	font-family: georgia;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #8E0B00;
+	text-align: center;
+
+}
+.d1{
+	margin: auto;
+	max-width: 1000px;
+}
+.d2{
+	float: left;
+	width: 33.333333333%
+	padding:15px;
+	position: relative;
+	max-width:400px;
+}
+.lol{
+	padding: 4px;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	overflow:  hidden;
+
+}
+.lol img  {
+vertical-align: middle;
+transition : a11 0.5s linear;
+opacity: 1.2
+
+}
+.lol:hover img{
+	transform:  scale(1.2);
+	opacity: 0.8;
+}

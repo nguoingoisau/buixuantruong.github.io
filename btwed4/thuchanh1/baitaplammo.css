@@ -1,0 +1,14 @@
+.d1{
+padding: 15px;
+
+}
+
+.thump img {
+vertical-align: middle;
+opacity: 2;
+transition: opacity: 10s linear;
+}
+.thump:hover img
+ {
+	opacity: 0.5;
+}
