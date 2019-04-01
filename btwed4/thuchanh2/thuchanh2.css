@@ -24,26 +24,31 @@ h1{
 	max-width: 1000px;
 }
 .d2{
-	float: left;
+
 	width: 33.333333333%
 	padding:15px;
 	position: relative;
-	max-width:400px;
-}
+	max-width:500px;
+	}
 .lol{
 	padding: 4px;
 	border: 1px solid #ddd;
 	cursor: pointer;
-	overflow:  hidden;
+	
 
 }
 .lol img  {
 vertical-align: middle;
-transition : a11 0.5s linear;
+transition : all 0.5s linear;
 opacity: 1.2
 
 }
 .lol:hover img{
-	transform:  scale(1.2);
+	transform:scale(1.2);
 	opacity: 0.8;
 }
+.to{ 
+	display: grid;
+	grid-gap: 20px;
+	
+	grid-template-columns: auto auto auto;}
