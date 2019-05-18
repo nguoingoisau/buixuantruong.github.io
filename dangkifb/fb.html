@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> đăng kí</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="fb.css">
+</head>
+<body>
+	<div id="khung">
+ <h1> Đăng Kí </h1>
+ <p> Luôn miễn phí </p>
+
+ <form action="ketqua.html" id="form-register" onsubmit="condition()">
+
+ 	<div style="width: 400px;height: 39px;">
+
+ 	<input type="text" placeholder="Họ" id="ho" > 
+ 	<input type="text"placeholder="Tên"id="ten"> </div> <br>
+ 	<input type="text"placeholder="Số di dộng hoặc Gmail "id="Gmail">  <br>
+ 	<input type="text"placeholder="Mật khẩu mới" id ="pass"> <br>
+ <p>Ngày sinh</p>
+
+
+ 	<br> <div id="birthday">
+
+ 	<select id="day" name="day">
+ 		<option value="Ngày">Ngày</option>
+ 		
+ 		
+ 	</select>
+ 	<select id="month" name="month">
+ 		<option value="tháng">tháng</option>
+ 		
+ 	</select>
+ 	<select id="year" name="year">
+ 		<option value="Năm">Năm</option>
+ 		
+ 	</select> 
+ </div>
+ <br>
+ 	<a href="">Tại sao tôi cần cung cấp ngày sinh của mình?</a><br>
+
+	<input type="radio" name="gander" value="Nam" checked=""> Nam
+
+	<input type="radio" name="gander" value="Nữ"> Nữ<br>
+
+	<p style="font-size: 15px; color: grey">Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href=""> Điều khoản</a>,<a href=""> Chính sách dữ liệu </a> và <a href=""> Chính sách cookie </a> của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.</p>
+	<button id="button" type="Đăng kí" onclick="">Đăng Kí</button>
+	<script type="text/javascript" src="fb.js"></script>
+	 </form>
+	</div>
+	</body>
+	</html>
