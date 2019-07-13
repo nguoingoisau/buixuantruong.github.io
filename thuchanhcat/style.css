@@ -1,0 +1,119 @@
+
+#a {
+position: relative;
+}
+#b{
+	position: absolute;
+	top:30px;
+	right: 80px;
+}
+#bg{
+ width: 100%;
+}
+#c {
+	position: absolute;
+	 top:30px;
+	 left:30px;
+
+
+}
+#d{
+	position: absolute;
+	 top: 35%;
+	 left: 38%;
+}
+#e{
+	position: absolute;
+	 top: 42%;
+	 left: 31%;
+
+}
+#f {
+	position: absolute;
+	 top: 49%;
+	 left: 25%;
+   width: 40%;
+}
+#g {
+	position: absolute;
+	 top: 49%;
+	 left: 65%;
+   width: 40%;
+}
+#o {
+	position: absolute;
+	 top: 70%;
+	 left: 27%;
+   width: 40%;
+}
+#r{
+	margin-top: 250px;
+	text-align: center;
+}
+#img{
+	width: 100%;
+}
+#c1 ,#c2 ,#c3,  #c4 {
+	margin-left: 167px;
+    margin-top: -416px;
+}
+#nut{
+	margin-top: 100px;
+    margin-left: 42%;
+}
+#text{
+	margin-top: 140px;
+   text-align: center;
+}
+#nut2{
+	margin-top: 100px;
+    margin-left: -20px;
+}
+.a1 {
+	position: relative;
+}
+#a2{
+	width: 100%;
+	margin-top: 80px;
+	margin-right: 10%;
+
+}
+#a3 {
+	position: absolute;
+	top: 110px;
+	margin-left: 350px;
+
+}
+#a4{
+position: absolute;
+	 top: 55%;
+	 left: 25%;
+   width: 35%;
+}
+#a5{
+	position: absolute;
+	top: 55%;
+
+	left: 48%;
+	width: 35%;
+}
+.b1 {
+	position: relative;
+}
+#b2{
+
+	width: 100%;
+}
+#b3{
+	position: absolute;
+	top: 20px;
+	margin-left: 30px;
+	color: #007bff;
+
+}
+#b4{
+	position: absolute;
+	top : 20px;
+	margin-left: 700px;
+
+}
